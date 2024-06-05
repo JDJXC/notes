@@ -27,7 +27,7 @@ ServletContext，直译的话叫做“Servlet上下文”，听着挺别扭。�
 
 - ServletContext对象的销毁是在服务器关闭时完成的
 
-  ![](..\assets\spring\image\ServletContext是什么.png)
+  ![](../assets/spring/image/ServletContext是什么.png)
 
 ServletContext对象的作用是在整个Web应用的动态资源（Servlet/JSP）之间共享数据。
 
@@ -43,7 +43,7 @@ ServletContext对象的作用是在整个Web应用的动态资源（Servlet/JSP�
 
 ### 2、如何获取ServletContext
 
-![用域对象获得域对象](..\assets\spring\image\servletContext.jpg)
+![用域对象获得域对象](../assets/spring/image/servletContext.jpg)
 
 所以，获取ServletContext的方法共5种（page域这里不考虑，JSP太少用了）：
 
